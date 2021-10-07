@@ -1,0 +1,111 @@
+:root {
+  --primary: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+  --secondary: #423A3A;
+  --third: #CE9898;
+  --fourth: #EE8B8B;
+  --fifth: #FFFFFF;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: var(--fourth);
+}
+
+@media screen and (min-width: 375px) {
+  .icon {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 32px;
+    top: 31px;
+  }
+  .model-img {
+    background-image: url("../images/hero-mobile.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 376px;
+    height: 250px;
+    left: -1px;
+    top: 84px;
+  }
+  .container {
+    position: absolute;
+    width: 311px;
+    height: 310px;
+    left: 32px;
+    top: 398px;
+  }
+  .container .we {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.82px;
+    margin: -30px;
+    color: var(--third);
+  }
+  .container .soon {
+    height: 84px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.82px;
+  }
+  .container .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--third);
+  }
+  .container .input {
+    border: 2px solid #F96464;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 28px;
+    width: 311px;
+    height: 48px;
+    text-align: center;
+  }
+  .container .submit {
+    position: absolute;
+    left: 79%;
+    right: 0%;
+    bottom: 3%;
+  }
+  .container .submit .btn {
+    border-radius: 28px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .model-img {
+    background-image: url("../images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 800px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
