@@ -1,6 +1,6 @@
 // variables
 :root {
-    --primary: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    --primary: linear-gradient(221.42deg, #FFF1F1 2.6%, #FFFFFF 96.36%);
     --secondary: #423A3A;
     --third: #CE9898;
     --fourth: #EE8B8B;
@@ -23,10 +23,9 @@ body {
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
-}
+    background-image: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
 
-.btn {
-    background-color: var(--fourth);
+
 }
 
 // mobile styles
@@ -91,14 +90,25 @@ body {
             text-align: center;
             // color: var(--third);
         }
-        .submit {
+        .btn {
             position: absolute;
-            left: 79%;
+            left: 80%;
             right: 0%;
-            bottom: 3%;
-            .btn {
-                border-radius: 28px;
-            }
+            bottom: 4.5%;
+            background-image: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+            box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+            width: 64px;
+            height: 48px;  
+            border-radius: 28px;
+            border-style: none;
+        }
+        .arrow {
+            position: absolute;
+            z-index: 1;
+            left: 89%;
+            right: 31%;
+            top: 84%;
+            bottom: 31.93%;
         }
     }
 }
