@@ -24,8 +24,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     background-image: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
-
-
 }
 
 // mobile styles
@@ -88,7 +86,9 @@ body {
             width: 311px;
             height: 48px;
             text-align: center;
-            // color: var(--third);
+        }
+        ::placeholder {
+            color: var(--third);
         }
         .btn {
             position: absolute;
