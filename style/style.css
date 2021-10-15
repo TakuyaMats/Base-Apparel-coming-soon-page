@@ -122,11 +122,95 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .icon {
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    left: 165px;
+    top: 65px;
+  }
   .model-img {
     background-image: url("../images/hero-desktop.jpg");
     background-repeat: no-repeat;
+    position: absolute;
     width: 610px;
     height: 800px;
+    left: 830px;
+    top: 0px;
+  }
+  .container {
+    text-align: left;
+    width: 445px;
+    height: 404px;
+    left: 165px;
+    top: 234px;
+  }
+  .container .we {
+    position: absolute;
+    height: 64px;
+    left: 0%;
+    right: 50%;
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: 17px;
+    color: var(--third);
+  }
+  .container .soon {
+    position: absolute;
+    left: 0%;
+    right: 50%;
+    top: -8%;
+    height: 128px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 17px;
+    color: #423A3A;
+  }
+  .container .content {
+    position: absolute;
+    text-align: left;
+    width: 444px;
+    height: 84px;
+    top: 180px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--third);
+  }
+  .container .input {
+    border: 1px solid #CE9898;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 28px;
+    position: absolute;
+    width: 445px;
+    height: 56px;
+    top: 318px;
+    text-align: center;
+  }
+  .container .btn {
+    position: absolute;
+    width: 100px;
+    height: 56px;
+    top: 318px;
+    background-image: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    -webkit-box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+            box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    border-radius: 28px;
+    border-style: none;
+  }
+  .container .arrow {
+    position: absolute;
+    z-index: 1;
+    left: 90%;
+    top: 335px;
+    bottom: 31.93%;
   }
 }
 /*# sourceMappingURL=style.css.map */
